@@ -4,7 +4,7 @@ const Login = ({ login, setLogin }) => {
   const navigate = useNavigate();
   const hanldeLoginClick = () => {
     setLogin(true);
-    navigate("/home");
+    navigate("/");
   };
   return (
     <div>
